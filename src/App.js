@@ -6,6 +6,7 @@ import Pirsomot from "./components/pirsomot/pirsomot";
 import Skarim from "./components/skarim/skarim";
 import Kesher from "./components/kesher/kesher";
 import List from "./components/list/list";
+import Newsletter from "./components/newsletter/newsletter";
 import HeaderHome from "./components/home/headerhome.jpg";
 import HeaderSkr from "./components/skarim/headerskr.jpg";
 import HeaderPrs from "./components/pirsomot/headerprs.jpg";
@@ -134,6 +135,7 @@ function App() {
           {" "}
           <img className="imgheader" src={HeaderHome} alt="" />
           <Home divskr={divskr} divprs={divprs} divatr={divatr} />{" "}
+          <Newsletter />
         </div>
       )}
       {loadskr && (
@@ -142,14 +144,14 @@ function App() {
           <div className="aaa-001">
             <img className="imgheader" src={HeaderSkr} alt="" />
           </div>
-          <Skarim />{" "}
+          <Skarim /> <Newsletter />
         </div>
       )}
       {loadprs && (
         <div>
           {" "}
           <img className="imgheader" src={HeaderPrs} alt="" />
-          <Pirsomot divatr={divatr} />{" "}
+          <Pirsomot divatr={divatr} /> <Newsletter />
         </div>
       )}
       {/* {loadatr && (

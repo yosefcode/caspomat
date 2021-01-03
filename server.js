@@ -81,4 +81,20 @@ app.post("/api/send-mail/", function (req, res) {
   });
 });
 
+app.post("/api/newsletter/", function (req, res) {
+  var mailOptions = {
+    to: process.env.GOOGLE_MAIL,
+    subject: "רשימת תפוצה - כספומט",
+    text: `שם: ${req.body.name} \nמייל: ${req.body.email}`,
+  };
+
+  transporter.sendMail(mailOptions, function (error, info) {
+    if (error) {
+      console.log(error);
+    } else {
+      console.log("Email sent: " + info.response);
+    }
+  });
+});
+
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));

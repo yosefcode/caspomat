@@ -30,6 +30,7 @@
 
 .home .link-button:hover,
 .home .link-button:focus {
+  background-color: transparent;
   color: rgb(55, 0, 252);
   font-size: 1.1em;
 }

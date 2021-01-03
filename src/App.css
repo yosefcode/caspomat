@@ -13,36 +13,7 @@
   background-color: rgb(228, 228, 228);
   z-index: 2;
 }
-/* .aaa-001 {
-  animation-name: aaa;
-  -webkit-animation-name: aaa;
 
-  animation-duration: 3s;
-  -webkit-animation-duration: 1s;
-
-  animation-timing-function: step-start;
-  -webkit-animation-timing-function: step-start;
-
-  visibility: visible !important;
-}
-
-@keyframes aaa {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
-}
-
-@-webkit-keyframes aaa {
-  0% {
-    -webkit-transform: translateX(-100%);
-  }
-  100% {
-    -webkit-transform: translateX(1000%);
-  }
-} */
 .App .allURL {
   width: 65%;
   margin: 0px auto;
@@ -124,6 +95,7 @@
   z-index: 2;
   /* background-color: rgb(219, 255, 255); */
 }
+
 @media only screen and (max-width: 999px) {
   .App {
     position: relative;
