@@ -92,13 +92,43 @@ function Pirsomot(props) {
         מכירה כמו K.S.P. ועוד שניתן להרשם ישירות באתר שלהם ולהפוך להיות שותפים.
       </h5>
       <h5>
-        <li>Wesell</li>
+        <li>
+          {" "}
+          <a
+            rel="noreferrer"
+            href="https://www.wesell.co.il/site/"
+            target="_blank"
+            className="link"
+          >
+            Wesell
+          </a>
+        </li>
       </h5>
       <h5>
-        <li>Clickon</li>
+        <li>
+          {" "}
+          <a
+            rel="noreferrer"
+            href="https://www.clickon.co.il/"
+            target="_blank"
+            className="link"
+          >
+            Clickon
+          </a>
+        </li>
       </h5>
       <h5>
-        <li>Sekindo</li>
+        <li>
+          {" "}
+          <a
+            rel="noreferrer"
+            href="https://www.sekindo.co.il/"
+            target="_blank"
+            className="link"
+          >
+            Sekindo
+          </a>
+        </li>
       </h5>
       <h5>
         אלו חברות ישראליות שנותנות לכם לפרסם מוצרים וחברות ישראליות ישנם
