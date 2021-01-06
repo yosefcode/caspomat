@@ -4,13 +4,11 @@ import React from "react";
 
 function Kesher() {
   let product = {};
-  // const [value, setValue] = useState("");
 
   const addProduct = () => {
     axios
       .post("/api/send-mail/", product)
       .then((res) => console.log("res.data"));
-    // setValue("");
 
     document.getElementById("name").value = "";
     document.getElementById("mail").value = "";
@@ -24,19 +22,8 @@ function Kesher() {
           רוצים להיות ראשונים להתעדכן על הטבות? אפשרויות חדשות לעשות כסף? הכניסו
           את המייל שלכם ואנו נעדכן אתכם ראשונים.
         </h5>
-        {/* <form
-          action="http://localhost:4200/api/sendemail/"
-          method="GET"
-          type="text/plain"
-          // target="_top"
-        >
-          <input type="text" name="name" />
-          <input type="text" name="Email" />
-          <input type="submit" name="submit" value="Send" />
-        </form> */}
         <input
           id="name"
-          // value={value}
           className="inputKesher"
           type="text"
           onInput={(e) => (product.name = e.target.value)}
@@ -61,8 +48,6 @@ function Kesher() {
           type="reset"
           onClick={() => {
             addProduct();
-            // document.getElementById("name").value = "";
-            // console.log(product);
           }}
         >
           שלח

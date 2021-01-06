@@ -1,7 +1,7 @@
 import "./home.css";
 import Pchome from "./pchome.jpg";
 
-function Home(props) {
+function Home() {
   return (
     <div className="home">
       <h4>
@@ -24,7 +24,6 @@ function Home(props) {
       </h5>
       <img className="pchome" src={Pchome} alt="" />
       <h4>מה היתרונות של עבודה מהבית?</h4>
-      {/* <div className="divli"> */}
       <h5>
         <li>אין צורך לקום מוקדם לרוץ לעבודה.</li>
         <li>אין בוסים על הראש – את/ה הבוס של עצמך!</li>
@@ -38,7 +37,6 @@ function Home(props) {
           והכי חשוב... את/ה יכול/ה לייצר הכנסה בפיג'מה מהמיטה או מהספה בסלון.
         </li>
       </h5>
-      {/* </div> */}
       <div>
         <h4>אילו סוגי עבודות אפשר לעבוד מהבית?</h4>
         <h5>
@@ -50,39 +48,17 @@ function Home(props) {
         </h5>
         <h5>
           באתר כספומט אספנו עבורכם עבודות ואפשרויות לעבודה מהבית ללא צורך בידע
-          מוקדם כגון{" "}
+          מוקדם כגון
           <li>
-            <button
-              className="link-button"
-              onClick={() => {
-                props.divskr();
-              }}
-            >
+            <a className="link-button" href="/סקרים-בתשלום/b">
               מילוי סקרים בתשלום
-            </button>
+            </a>
           </li>{" "}
           <li>
-            {" "}
-            <button
-              className="link-button"
-              onClick={() => {
-                props.divprs();
-              }}
-            >
+            <a className="link-button" href="/שיווק-שותפים/c">
               שיווק שותפים{" "}
-            </button>
+            </a>{" "}
           </li>
-          {/* <li>
-            {" "}
-            <button
-              className="link-button"
-              onClick={() => {
-                props.divatr();
-              }}
-            >
-              פרסום מוצרים{" "}
-            </button>
-          </li> */}
           כמובן כל הדברים המומלצים כאן באתר אלו מקומות שבדקנו ונוכחנו כי הם
           אמינים ומשלמים ללא התחכמויות.
         </h5>

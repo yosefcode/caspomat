@@ -1,6 +1,6 @@
 import "./pirsomot.css";
 
-function Pirsomot(props) {
+function Pirsomot() {
   return (
     <div className="pirsomot">
       <h4>מה זה שיווק שותפים?</h4>

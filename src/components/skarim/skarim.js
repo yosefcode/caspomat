@@ -4,7 +4,7 @@ import Ipanel from "./ipanel.png";
 import Panel4all from "./panel4all.jpg";
 import Panelview from "./panelview.jpg";
 
-function Skarim() {
+const Skarim = () => {
   return (
     <div className="skarim">
       <h4>מה זה אומר סקרים בתשלום?</h4>
@@ -160,6 +160,6 @@ function Skarim() {
       </h5>
     </div>
   );
-}
+};
 
 export default Skarim;
