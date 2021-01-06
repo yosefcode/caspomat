@@ -18,9 +18,9 @@ app.use(express.static(path.join(__dirname, "build")));
 
 const PORT = process.env.PORT || 4200;
 
-// app.get("/*", (req, res) => {
-//   res.sendFile(path.join(__dirname, "build", "index.html"));
-// });
+app.get("/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "build", "index.html"));
+});
 
 // app.get("/list", (req, res) => {
 //   fs.readFile("products.json", (err, data) => {
