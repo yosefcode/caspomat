@@ -7,13 +7,10 @@ const Bar = (props) => {
   return (
     <div className="bar">
       <div className="allURL">
-        <a className={id === "a" ? "divtrue" : "divfalse"} href="/דף-הבית/a">
+        <a className={id === "a" ? "divtrue" : "divfalse"} href="/aaa/a">
           דף הבית
         </a>
-        <a
-          className={id === "b" ? "divtrue" : "divfalse"}
-          href="/סקרים-בתשלום/b"
-        >
+        <a className={id === "b" ? "divtrue" : "divfalse"} href="/bbb/b">
           סקרים בתשלום
         </a>{" "}
         <a

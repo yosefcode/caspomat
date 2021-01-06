@@ -61,14 +61,14 @@ function App() {
             <Newsletter />
           </Route>
 
-          <Route path="/דף-הבית/:id">
+          <Route path="/aaa/:id">
             <Bar />
             <img className="imgheader" src={HeaderHome} alt="" />
             <Home />
             <Newsletter />
           </Route>
 
-          <Route path="/סקרים-בתשלום/:id">
+          <Route path="/bbb/:id">
             <Bar />
             <img className="imgheader" src={HeaderSkr} alt="" />
             <Skarim />
