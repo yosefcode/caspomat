@@ -7,7 +7,7 @@ const Bar = (props) => {
   return (
     <div className="bar">
       <div className="allURL">
-        <a className={id === "a" ? "divtrue" : "divfalse"} href="/api/aaa/a">
+        <a className={id === "a" ? "divtrue" : "divfalse"} href="/aaa/">
           דף הבית
         </a>
         <a

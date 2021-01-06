@@ -61,7 +61,7 @@ function App() {
             <Newsletter />
           </Route>
 
-          <Route path="/api/aaa/:id">
+          <Route path="/aaa/">
             <Bar />
             <img className="imgheader" src={HeaderHome} alt="" />
             <Home />
