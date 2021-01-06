@@ -68,7 +68,7 @@ function App() {
             <Newsletter />
           </Route>
 
-          <Route path="api/bbb/:id">
+          <Route path="http://www.caspomat.co.il/bbb/:id">
             <Bar />
             <img className="imgheader" src={HeaderSkr} alt="" />
             <Skarim />

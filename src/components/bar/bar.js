@@ -10,7 +10,10 @@ const Bar = (props) => {
         <a className={id === "a" ? "divtrue" : "divfalse"} href="/api/aaa/a">
           דף הבית
         </a>
-        <a className={id === "b" ? "divtrue" : "divfalse"} href="api/bbb/b">
+        <a
+          className={id === "b" ? "divtrue" : "divfalse"}
+          href="http://www.caspomat.co.il/bbb/b"
+        >
           סקרים בתשלום
         </a>{" "}
         <a
